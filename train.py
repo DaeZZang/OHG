@@ -266,9 +266,9 @@ class CustomImageDataset(Dataset):
     
 import pandas as pd
 train_set = CustomImageDataset('{}/train_labeled_img.csv'.format(csv_path), train_img_path, transform = transforms_train)
-val_set = CustomImageDataset('{}/val_labeled_img.csv'.format(csv_path), valid_img_path, transform = transforms_val)
+val_set = CustomImageDataset('{}/valid_labeled_img.csv'.format(csv_path), valid_img_path, transform = transforms_val)
 
-batch_size = 256
+batch_size = 300
 dataloader_train = torch.utils.data.DataLoader(train_set, batch_size = batch_size, drop_last = True, pin_memory = True)
 dataloader_val = torch.utils.data.DataLoader(val_set, batch_size = batch_size, drop_last = True, pin_memory = True)
 
