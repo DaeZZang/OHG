@@ -52,9 +52,9 @@ def crop_and_save_image(image_path, label_data, save_dir):
         cv2.imwrite(os.path.join(char_folder, filename), cropped_img)
 
 # Define directories
-dataset_dir = './dataset/train/images2'
-labels_dir = './dataset/train/labels'
-save_dir = './dataset/train/crop'
+dataset_dir = '../dataset/valid/images'
+labels_dir = '../dataset/valid/labels'
+save_dir = '../dataset/valid/crop'
 
 # Prepare multiprocessing with tqdm for progress monitoring
 file_list = [(filename, dataset_dir, labels_dir, save_dir) for filename in os.listdir(labels_dir)]

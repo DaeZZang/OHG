@@ -1,0 +1,4 @@
+﻿Epoch:   1 | T_Loss 11.061 | T_acc 0.111 | V_Loss   nan | V_acc.   nan | 🕒 7722.59
+Epoch:   2 | T_Loss 12.706 | T_acc 0.067 | V_Loss   nan | V_acc.   nan | 🕒 6745.61
+Epoch:   3 | T_Loss 12.66 | T_acc  0.06 | V_Loss   nan | V_acc.   nan | 🕒 6521.794
+Epoch:   1 | T_Loss 11.061 | T_acc 0.111 | V_Loss   nan | V_acc.   nan | 🕒 7399.886

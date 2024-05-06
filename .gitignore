@@ -1,6 +1,10 @@
 dataset/
+crop_dataset/
 utils/
 .ipynb_checkpoints/
 __pycache__/
 *.pt
 *.pth
+csv/train_labeled_img.csv
+csv/valid_labeled_img.csv
+EfficientFormer
